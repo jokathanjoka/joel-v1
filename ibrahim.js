@@ -156,7 +156,7 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '255678892560';
+            const dj = '255768886545';
             const dj2 = '255781144539';
             const dj3 = "255714595078";
             const luffy = '255767570963';
@@ -426,7 +426,7 @@ function mybotpic() {
                                         id: ms.key.id,
                                         participant: auteurMessage
                                     };
-                                    var txt = "lien detected, \n";
+                                    var txt = "link detected, \n";
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
@@ -848,7 +848,7 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg =`*stanley md bot is connected*`;
+                let cmsg =`*joel md bot is connected*`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
